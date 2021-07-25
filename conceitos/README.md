@@ -1,0 +1,13 @@
+# Lista de exercícios
+
+1. Crie uma classe chamada `Colaborador` que inclua três variáveis de instância — um primeiro nome (tipo String), um sobrenome (tipo String) e um salário mensal (double). Forneça um construtor que inicializa as três variáveis de instância. Forneça um método set e um get para cada variável de instância. Se o salário mensal não for positivo, não configure seu valor. Escreva um aplicativo de teste chamado `TesteColaborador` que demonstre as capacidades da classe `Colaborador`. Crie dois objetos `Colaborador` e exiba o salário anual de cada objeto. Então dê a cada `Colaborador` um aumento de 10% e exiba novamente o salário anual de cada `Colaborador`.
+
+2. Faça um programa que calcule a área de uma figura geométrica. Deve aceitar quatro tipos de figura geométrica: quadrado, retângulo, triângulo e círculo. Use herança e polimorfismo.
+
+3. Crie uma classe chamada `Fatura` para que uma loja de suprimentos de informática a utilize para representar uma fatura de um item vendido nela. Uma `Fatura` deve incluir quatro partes das informações como variáveis de instância — o número (tipo String), a descrição (tipo String), a quantidade comprada de um item (tipo int) e o preço por item (double). Sua classe deve ter um construtor que inicializa as quatro variáveis de instância. Forneça um método set e um get para cada variável de instância. Além disso, forneça um método chamado `getValorFatura` que calcula o valor de fatura (isto é, multiplica a quantidade pelo preço por item) e depois retorna esse valor como double. Se a quantidade não for positiva, ela deve ser configurada como 0. Se o preço por item não for positivo, ele deve ser configurado como 0.0. Escreva um aplicativo de teste chamado `TesteFatura` que demonstra as capacidades da classe `Fatura`.
+
+4. Identifique as classes e implemente um programa para a seguinte especificação: "O supermercado vende diferentes tipos de produtos. Cada produto tem um preço e uma quantidade em estoque. Um pedido de um cliente é composto de itens, onde cada item especifica o produto que o cliente deseja e a respectiva quantidade. Esse pedido pode ser pago em dinheiro, cheque ou cartão."
+
+5. Observe os cômodos da sua casa e crie 5 classes para cada cômodo baseado nos objetos em cada um deles. Cada classe deve ter pelo menos dois atributos e um método. Crie uma classe Casa para testar suas classes.
+
+6. Implemente a classe `Animal`, e as subclasses `Ovelha`, `Gato` e `Vaca`. A classe animal deve ter os atributos `nome` e `numeroPatas` e um método `emitirSom`. Defina como deve ser o construtor de cada subclasse. Defina também usando polimorfismo como devem ser o som de cada animal. Crie uma classe `Zoologico` para testar as classes criadas.
