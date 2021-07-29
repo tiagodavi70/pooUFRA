@@ -8,10 +8,16 @@ public class Principal {
         Contato c3 = new Contato("Raissa", "999999999");
         Agenda agenda = new Agenda();
 
-        agenda.adicionarContato(c1);
-        agenda.adicionarContato(c2);
-        agenda.adicionarContato(c3);
+        // agenda.adicionarContato(c1);
+        // agenda.adicionarContato(c2);
+        // agenda.adicionarContato(c3);
+        // agenda.imprimirContatos();
 
-        agenda.imprimirContatos();
+        Contato[] cs = {c1,c2,c3};
+        agenda.adicionarContatos(cs);
+
+
+        System.out.println(agenda);
+        
     }
 }

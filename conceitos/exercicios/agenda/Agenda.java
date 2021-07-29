@@ -1,6 +1,6 @@
 public class Agenda {
     
-    Contato[] contatos;
+    private Contato[] contatos;
     private int numero_contatos;
 
     public Agenda() {
@@ -19,13 +19,25 @@ public class Agenda {
         this.numero_contatos++;
     }
 
-    public void adicionarContatos(Contato[] contato) {
-
+    public void adicionarContatos(Contato[] contatos) {
+        for (int i = 0 ; i < contatos.length ; i++) {
+            this.contatos[this.numero_contatos + i] = contatos[i];
+        }
+        this.numero_contatos = this.numero_contatos + contatos.length;  
     }
 
     public void imprimirContatos() {
         for (int i = 0 ; i < this.numero_contatos ; i++) {
             System.out.println(contatos[i].getNome());
         }
+    }
+
+    @Override
+    public String toString(){
+        String str = "";
+        for (int i = 0 ; i < this.numero_contatos ; i++) {
+            str = str + this.contatos[i] + "\n"; 
+        }
+        return str;
     }
 }

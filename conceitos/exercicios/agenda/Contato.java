@@ -43,4 +43,9 @@ public class Contato {
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
+
+    @Override
+    public String toString() {
+        return this.nome + " - " + this.numero;
+    }
 }
