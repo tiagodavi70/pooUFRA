@@ -19,7 +19,7 @@ de quilowatts gasta por uma residência. Calcule e imprima:
 | Caegoria | Idade |
 | --- | --- |
 | Infantil A | 5 - 7 anos |
-| Infantil A | 8 - 10 anos |
+| Infantil B | 8 - 10 anos |
 | Juvenil A | 11 - 13 anos |
 | Juvenil B | 14 - 17 anos |
 | Sênior| maiores de 18 anos |
@@ -46,7 +46,7 @@ para Celsius, e em seguida deve entrar com uma temperatura. As fórmulas de conv
 abaixo:  
 F : Temperatura em Fahrenheit; C :Temperatura em Celsius  
 * Celsius-Fahrenheit: F = (9 * C + 160) / 5
-* Fahrenheit-Celsius: C = (F - 32) * (5 / 9);
+* Fahrenheit-Celsius: C = (F - 32) * 5 / 9;
 
 11. Escreva um programa Java que faça uma multiplicação entre dois números, através de sucessivas somas.
 
