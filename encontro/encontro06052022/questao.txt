@@ -1,0 +1,15 @@
+
+Escreva um programa em Java quer faça o controle de estoque de uma loja. Em um menu deve ter as opções:
+
+  cadastrar produto
+  vender produto
+  gerar relatório
+
+Na opção de cadastro o usuário deve entrar com:
+
+  nome do produto
+  preço
+  tipo
+
+Na opção vender produto deve registrar uma venda do produto.
+E na opção gerar relatório deve mostrar o valor total ganho e a média por produto.
